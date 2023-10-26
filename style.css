@@ -8,7 +8,14 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   background: #c19a6b;
+  margin: 0;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 /* Header/Blog Title */
 .header {
@@ -21,6 +28,13 @@ body {
   font-size: 50px;
 }
 
+#rcorners1 {
+  border-radius: 25px;
+  background: #a67b5b;
+  padding: 10px; 
+  width: 300px;
+  height: 250px;  
+}
 
 /* Style the top navigation bar */
 .topnav {
@@ -89,11 +103,15 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn { 
+  width: 75%; 
+  float: left; 
   float: left;
   width: 75%;
+  padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 /* Right column */
 .rightcolumn {
@@ -105,13 +123,12 @@ body {
 }
 
 
-
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: antiquewhite;
   padding: 20px;
   margin-top: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -121,15 +138,14 @@ body {
   clear: both;
 }
 
+
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #f1f1f1;
   margin-top: 20px;
-  font-size: small;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -148,6 +164,4 @@ body {
   }
 }
 
-
-
-</style>
+  </style>
