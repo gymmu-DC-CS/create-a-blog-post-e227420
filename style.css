@@ -46,7 +46,7 @@ h2 {
 }
 
 
-/*I added borders to my pictures, if you hover over the picture, you will directly get the link to the source*/
+/*I added borders to my pictures, if you hover over the picture, you will directly get the link to the source, I found the Instructions online, and figured some of it out myself and through w3schools*/
 #rcorners1 {
   border-radius: 25px;
   background: #a67b5b;
@@ -175,7 +175,7 @@ h2 {
     width: 100%;
   }
 
-/*I wanted to have a special rounded footer so I added radius in the corners*/
+/*I wanted to have a special rounded footer so I added radius in the corners, i figured that step out myself*/
 .footer {
   padding: 10px;
   background-color: oldlace;
