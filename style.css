@@ -157,14 +157,10 @@ h2 {
   }
 
 
-.card {
-  padding: 20px;
-  margin-top: 20px;
- float: left;
-}
 
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+/* when the screen is less than 800px wide, it will make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) 
   .leftcolumn, .rightcolumn {   
     width: 100%;
@@ -172,17 +168,21 @@ h2 {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* when the screen is less than 400px wide,it will make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) 
   .topnav a {
     float: none;
     width: 100%;
   }
 
-
+/*I wanted to have a special rounded footer so I added radius in the corners*/
 .footer {
-  padding: 30px;
-  background-color: antiquewhite;
+  padding: 10px;
+  background-color: oldlace;
   margin: 20px;
   text-align: center;
+  border-bottom-left-radius: 40px 390px ;
+  border-bottom-right-radius: 40px 390px ;
+  border-top-right-radius: 40px 390px ;
+  border-top-left-radius: 40px 390px ;
 }

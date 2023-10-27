@@ -9,7 +9,7 @@
 html {
     font-size: 10px;
 }
-
+/* wanted the whole background to be beige*/
 body {
     background-color: #c19a6b;
     background-position: 0 1000px;
@@ -42,7 +42,7 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
-
+/* all the "p"s are in the center*/
 p {
     font-size: 2rem;
     color: rgb(0, 0, 0);
@@ -50,7 +50,7 @@ p {
     margin-bottom: 2rem;
     text-align: center;
 }
-
+/*I added a button, hoover efect and spinning when hoovering over*/
 a:link {
     display: inline-block;
     padding: 2.7rem 7.5rem;
@@ -61,10 +61,17 @@ a:link {
     border-radius: 10px;
     transition: background 0.3s;
     margin-bottom: 5rem;
+    transition: transform .7s ease-in-out;
 }
 a:link, a:visited{
     color: white;
+   
 }
+/* gives the effect to be a ligther color when you hoover over it*/
 a:hover, a:active {
     background: blanchedalmond;
+    transform: rotate(360deg);
 }
+
+  
+  
