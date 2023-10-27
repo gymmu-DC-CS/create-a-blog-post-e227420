@@ -14,15 +14,26 @@ body {
 
 img {
   display: block;
-  margin-left: auto;
+  margin-left: auto; 
   margin-right: auto;
+  }
+
+  @keyframes example {
+    0% {color: #000000}
+    50% {color: #5a4831}
+    100% {color: #000000}
   }
 
 /* Header/Blog Title */
 .header {
+  animation-name: example;
+  animation-duration: 15s;
+  animation-delay: 0s;
   padding: 30px;
   text-align: center;
-  background: #a67b5b;
+  background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%);
+  animation-iteration-count: infinite;
+  anim
 }
 
 .header h1 {
@@ -159,7 +170,7 @@ h2 {
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) 
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
@@ -167,15 +178,16 @@ h2 {
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) 
   .topnav a {
     float: none;
     width: 100%;
   }
-}
+
 
 .footer {
   padding: 30px;
+  background-color: antiquewhite;
   margin: 20px;
   text-align: center;
 }
