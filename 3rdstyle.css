@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+body {
+    background-color: #c19a6b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px, 25px;
+    font-size: 18px;
+    width: 90%;
+    margin: auto;
+}
+
+/* the infos from this table are from https://seaworld.org/animals/facts/mammals/defassa-waterbuck/y , mhttps://www.sidebysidesafaris.com/en/common-waterbuck , https://www.wildlifeofkenya.com/categories/ongulates/waterbuck-common/ , https://www.mpalalive.org/field_guide/defassa_waterbuck , wikipedia , https://www.britannica.com/animal/defassa-waterbuck*/
+table {
+    width: 100%;
+    border: 2px solid;
+}
+
+img {
+    margin: 22px, 10px, 10px, 0px;
+    float: left;
+    padding: 10px;
+}
+
+/* I added padding so the Video doesn't stick to the bottom of my page*/
+.video {
+    padding-bottom: 20px;
+}
