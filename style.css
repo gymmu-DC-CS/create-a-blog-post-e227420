@@ -65,7 +65,7 @@ h2 {
   border-radius: 25px;
   background: #a67b5b;
   padding: 10px; 
-  width: 360px;
+  width: 400px;
   height: 250px; 
 }
 #rcorners4 {
@@ -98,7 +98,7 @@ h2 {
   background-color: #000000;
 }
 
-/* Style the topnav links */
+/* Style the top navigation links */
 .topnav a {
   float: left;
   display: block;
