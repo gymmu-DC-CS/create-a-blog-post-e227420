@@ -20,18 +20,18 @@ img {
 
   @keyframes example {
     0% {color: #000000}
-    50% {color: #5a4831}
+    50% {color: #7b613f}
     100% {color: #000000}
   }
 
 /* Header/Blog Title */
 .header {
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 8s;
   animation-delay: 0s;
   padding: 30px;
   text-align: center;
-  background-image: linear-gradient(315deg, #230903 0%, #d3b88c 74%);
+  background-image: linear-gradient(315deg, #230903 0%, #c19a6b 74%);
   animation-iteration-count: infinite;
   anim
 }
@@ -46,7 +46,7 @@ h2 {
 }
 
 
-/*I added borders to my pictures*/
+/*I added borders to my pictures, if you hover over the picture, you will directly get the link to the source*/
 #rcorners1 {
   border-radius: 25px;
   background: #a67b5b;
@@ -65,7 +65,7 @@ h2 {
   border-radius: 25px;
   background: #a67b5b;
   padding: 10px; 
-  width: 300px;
+  width: 360px;
   height: 250px; 
 }
 #rcorners4 {
@@ -92,7 +92,7 @@ h2 {
   margin-top: 5px;
 }
 
-/* Style the top navigation bar */
+/* I styled the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #000000;
@@ -155,11 +155,6 @@ h2 {
   .topnav input[type=text] {
     border: 1px solid #ccc;  
   }
-
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-
 
 
 .card {
